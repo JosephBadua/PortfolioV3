@@ -2,22 +2,17 @@ import Mock from "../mock";
 
 const database = {
   information: {
-    name: 'Devid Chester',
-    aboutContent: "I am a frontend web developer. I can provide clean code and pixel perfect design. I also make website more & more interactive with web animations.",
+    name: 'Joseph Badua',
+    aboutContent: "I am a ",
     age: 24,
-    phone: '',
+    phone: '562-382-4416',
     nationality: 'American',
-    language: 'English, French',
+    language: 'English',
     email: '',
-    address: '121 King Street, Melbourne, Australia',
+    address: 'Los Angeles, CA',
     freelanceStatus: 'Available',
     socialLinks: {
-      facebook: 'https://facebook.com',
-      twitter: 'https://twitter.com',
-      pinterest: '',
-      behance: '',
       linkedin: '',
-      dribbble: '',
       github: 'https://github.com'
     },
     brandImage: '/images/brand-image.jpg',
