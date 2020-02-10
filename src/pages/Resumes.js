@@ -28,16 +28,8 @@ function Resumes(){
     <Layout>
       <div className="mi-skills-area mi-section mi-padding-top">
         <div className="container">
-          <Sectiontitle title="My Skills" />
-          <div className="mi-skills">
-            <div className="row mt-30-reverse">
-              {skills.map(skill => (
-                <TrackVisibility once className="col-lg-6 mt-30" key={skill.title}>
-                  <Progress title={skill.title} percentage={skill.value} />
-                </TrackVisibility>
-              ))}
-            </div>
-          </div>
+          <Sectiontitle title="My Tech Stack" />
+        
         </div>
       </div>
       <div className="mi-resume-area mi-section mi-padding-top mi-padding-bottom">
