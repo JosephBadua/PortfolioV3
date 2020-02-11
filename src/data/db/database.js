@@ -84,7 +84,7 @@ const database = {
       id: 1,
       title: "Star Jump",
       subtitle: "Web application using React.js and MongoDB. Users can play multiple game modules made for young children and their learning. Features user login and a reward system.",
-      imageUrl: "/images/starjumpGif.gif",
+      imageUrl: "/images/starGif.gif",
       largeImageUrl: [
         "/images/starJump.png",
       ],

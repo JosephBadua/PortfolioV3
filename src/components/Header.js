@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import {NavLink, Link} from 'react-router-dom';
 import axios from 'axios';
 import LineIcon from 'react-lineicons';
-import Socialicons from "../components/Socialicons";
 
 function Header(){
     const [information, setInformation] = useState("");

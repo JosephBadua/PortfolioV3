@@ -8,61 +8,10 @@ function Contact(){
   const [phoneNumbers, setPhoneNumbers] = useState([]);
   const [emailAddress, setEmailAddress] = useState([]);
   const [address, setAddress] = useState([]);
-  const [formdata, setFormdata] = useState({
-    name: "",
-    email: "",
-    subject: "",
-    message: ""
-  });
-  const [error, setError] = useState(false);
-  const [message, setMessage] = useState("");
-
-  const submitHandler = (event) =>{
-    event.preventDefault();
-    if( !formdata.name ){
-      setError(true);
-      setMessage('Name is required');
-    } else if( !formdata.email ){
-      setError(true);
-      setMessage('Email is required');
-    } else if( !formdata.subject ){
-      setError(true);
-      setMessage('Subject is required');
-    } else if( !formdata.message ){
-      setError(true);
-      setMessage('Message is required');
-    } else{
-      setError(false);
-      setMessage('You message has been sent!!!');
-    }
-  }
-  const handleChange = (event) => {
-    setFormdata({
-      ...formdata,
-      [event.currentTarget.name] : event.currentTarget.value
-    })
-  }
+  
   const numberFormatter = (number) =>{
     const phnNumber = number;
     return phnNumber;
-  }
-
-  const handleAlerts = () => {
-    if(error && message){
-      return (
-        <div className="alert alert-danger mt-4">
-          {message}
-        </div>
-      )
-    } else if(!error && message){
-      return (
-        <div className="alert alert-success mt-4">
-          {message}
-        </div>
-      )
-    } else{
-      return null;
-    }
   }
 
   useEffect(() => {
