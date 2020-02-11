@@ -67,13 +67,6 @@ function About() {
                   alt="about"
                   onClick={() => handleToggler(!toggler)}
                 />
-                <span className="mi-about-image-icon">
-                  <Icon.ZoomIn />
-                </span>
-                <FsLightbox
-                  toggler={toggler}
-                  sources={[information.aboutImageLg]}
-                />
               </div>
             </div>
             <div className="col-lg-6">
