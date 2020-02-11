@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import axios from 'axios';
-import GoogleMaps from "../components/GoogleMap";
 import * as Icon from "react-feather";
 import Sectiontitle from "../components/Sectiontitle";
 import Layout from "../components/Layout";
@@ -81,10 +80,7 @@ function Contact(){
         <div className="container">
           <Sectiontitle title="Contact Me"/>
           <div className="row">
-            <div className="col-lg-6">
-              <GoogleMaps></GoogleMaps>
-            </div>
-            <div className="col-lg-6">
+            <div className="col-lg-12">
               <div className="mi-contact-info">
                 {!phoneNumbers ? null : (
                   <div className="mi-contact-infoblock">
