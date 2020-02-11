@@ -79,9 +79,6 @@ const database = {
       }
     },
   ],
-  skills: [
-
-  ],
   portfolios: [
     {
       id: 1,
