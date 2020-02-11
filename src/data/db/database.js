@@ -128,7 +128,7 @@ const database = {
       subtitle: "Using MySQL and vanilla Javascript for ORM, the web application allows user to 'eat' a burger and add new burgers. Made to add new infromation the tables and transfer data from one to another.",
       imageUrl: "/images/burgerGif.gif",
       largeImageUrl: ["/images/burgerStuff.png"],
-      url: 'https://josephs-burgersql.herokuapp.com/'
+      url: 'https://github.com/JosephBadua/burger'
     },
     {
       id: 7,
