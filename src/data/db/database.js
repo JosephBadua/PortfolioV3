@@ -165,7 +165,7 @@ const database = {
         position: "Web Developer",
         company: "Los Angeles, California",
         details: `Create multiple page applications per the client’s request, most notably a newsletter for a local hospital department, which saw MoM increase of user engagement by 80%.
-        Made several contributions to open source projects from updating documentation to project issues. Attended several nationally sponsored hackathon such as HackSC, USC's and SoCal's largest hackathon, and CalTech's Hacketch.`, 
+        Made several contributions to open source projects from updating documentation to project issues. Active in local tech spaces in both the Inland Empire and Los Angeles. Attended several nationally sponsored hackathon such as HackSC, USC's and SoCal's largest hackathon, and CalTech's Hacketch.`, 
       },
     ],
     educationExperience: [
