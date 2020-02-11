@@ -24,26 +24,26 @@ function Resumes() {
           <Sectiontitle title="My Tech Stack and Skills" />
           <div className="row">
             <div className="column">
-              <img  className="stack-picture"  src="/images/css3logo.png"></img>
-              <img  className="stack-picture"  src="/images/javascriptlogo.png"></img>
-              <img  className="stack-picture"  src="/images/phplogo.png"></img>      
-            <img  className="stack-picture"  src="/images/reactlogo.png"></img>
-            <img   className="stack-picture" src="/images/mongodblogo.png"></img>
+              <img  alt="HTML/CSS3" className="stack-picture"  src="/images/css3logo.png"></img>
+              <img  alt="Javascript" className="stack-picture"  src="/images/javascriptlogo.png"></img>
+              <img  alt="PHP" className="stack-picture"  src="/images/phplogo.png"></img>      
+            <img  alt="React" className="stack-picture"  src="/images/reactlogo.png"></img>
+            <img   alt="MongoDB" className="stack-picture" src="/images/mongodblogo.png"></img>
 
             </div>
             <div className="column">
-            <img  className="stack-picture"  src="/images/bootstraplogo.png"></img>
-            <img  className="stack-picture"  src="/images/materializelogo.png"></img>
-              <img  className="stack-picture"  src="/images/mysqlLogo.png"></img>
-              <img  className="stack-picture"  src="/images/sequelizelogo.png"></img>
-            <img  className="stack-picture"  src="/images/adwordsLogo.png"></img>
+            <img  alt="Bootstrap" className="stack-picture"  src="/images/bootstraplogo.png"></img>
+            <img  alt="Materialize" className="stack-picture"  src="/images/materializelogo.png"></img>
+              <img  alt="MySQL" className="stack-picture"  src="/images/mysqlLogo.png"></img>
+              <img  alt="Sequelize" className="stack-picture"  src="/images/sequelizelogo.png"></img>
+            <img  alt="AdWords" className="stack-picture"  src="/images/adwordsLogo.png"></img>
             </div>
             <div className="column">
-            <img   className="stack-picture" src="/images/nodelogo.png"></img>
-            <img  className="stack-picture"  src="/images/expressLogo.png"></img>
-            <img  className="stack-picture"  src="/images/firebaselogo.png"></img>
-            <img  className="stack-picture"  src="/images/googlecloudlogo.png"></img>
-            <img  className="stack-picture"  src="/images/photoshoplogo.png"></img>
+            <img   alt="Node.js" className="stack-picture" src="/images/nodelogo.png"></img>
+            <img  alt="Express" className="stack-picture"  src="/images/expressLogo.png"></img>
+            <img  alt="Firebase" className="stack-picture"  src="/images/firebaselogo.png"></img>
+            <img alt="GCP"  className="stack-picture"  src="/images/googlecloudlogo.png"></img>
+            <img  alt="Photoshop" className="stack-picture"  src="/images/photoshoplogo.png"></img>
 
 
 
