@@ -37,7 +37,7 @@ function Header(){
                     <li><NavLink to="/portfolios"><span>My Work</span></NavLink></li>
                     <li><NavLink to="/contact"><span>Contact Me</span></NavLink></li>
                 </ul>
-                <p className="mi-header-copyright"><Socialicons bordered /></p>
+                <p className="mi-header-copyright"></p>
             </div>
         </nav>
     )
