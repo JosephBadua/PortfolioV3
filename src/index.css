@@ -39,6 +39,13 @@ code {
   border-radius: 1em;
 }
 
+.google-maps {
+  height: 100%;
+  width: 100%;
+  padding: 2em;
+  background: rgb(57, 64, 90);
+  border-radius: 1em;
+}
 /* Responsive layout - makes a two column-layout instead of four columns */
 @media screen and (max-width: 900px) {
   .column {
@@ -50,7 +57,7 @@ code {
 /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
 @media screen and (max-width: 600px) {
   .column {
-    flex: 100%;
+    flex: 33%;
     max-width: 100%;
   }
 }

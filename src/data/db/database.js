@@ -82,181 +82,108 @@ const database = {
   portfolios: [
     {
       id: 1,
-      title: "Math-Game",
-      subtitle: "Simple and stylistic multiple choice math game for young kids.",
-      imageUrl: "/images/portfolio-image-1.jpg",
-      largeImageUrl: ["/images/portfolio-image-1-lg.jpg"],
-      url: 'https://dribbble.com'
+      title: "Star Jump",
+      subtitle: "Web application using React.js and MongoDB. Users can play multiple game modules made for young children and their learning. Features user login and a reward system.",
+      imageUrl: "/images/star-jumpGif.gif",
+      largeImageUrl: [
+        "/images/starJump.png",
+      ],
+      url: 'https://powerful-tundra-87228.herokuapp.com/'
     },
     {
       id: 2,
-      title: "Coffee Mug",
-      subtitle: "Awesome coffee mug design.",
-      imageUrl: "/images/portfolio-image-4.jpg",
-      largeImageUrl: [
-        "/images/portfolio-image-4-lg.jpg",
-        "/images/portfolio-image-4-lg2.jpg"
-      ],
-      url: 'https://facebook.com'
+      title: "Spot On",
+      subtitle: "Using MySQL and Sequelize, people can find their lost pets and any user can help reunite strays with their own owners. Features user login and SQL queries",
+      imageUrl: "/images/spotOngif.gif",
+      largeImageUrl: ["/images/spotOn.png"],
+      url: 'https://spot-on-app.herokuapp.com/'
     },
     {
       id: 3,
-      title: "Tea & Coffee Mug",
-      subtitle: "Beautiful mug with logo.",
-      imageUrl: "/images/portfolio-image-2.jpg",
-      url: 'https://pinterest.com'
+      title: "Pixit",
+      subtitle: "Application with Google Cloud Platform and Google Maps API. Uses geolocation to store past locations on community activity",
+      imageUrl: "/images/pixitGif.gif",
+      largeImageUrl: ["/images/pixit.png"],
+      url: 'https://github.com/JosephBadua/pixit2-electricpixaloo'
     },
     {
       id: 4,
-      title: "Pen Holder",
-      subtitle: "A pen holder with beautiful design.",
-      imageUrl: "/images/portfolio-image-3.jpg",
-      largeImageUrl: ["/images/portfolio-image-3-lg.jpg"],
-      url: '#'
+      title: "Friend Finder",
+      subtitle: "Using REST APIs, users can answer questions which will calculate a score and match them with their closest friend; which is a past user who answered similarly to the current user.",
+      imageUrl: "/images/friendFinderGif.gif",
+      largeImageUrl: ["/images/friendfinder1.png", "/images/friendfinder2.png"],
+      url: 'https://friend-finder-app-joseph.herokuapp.com/'
     },
     {
       id: 5,
-      title: "Mug",
-      subtitle: "Mug with awesome style",
-      imageUrl: "/images/portfolio-image-5.jpg",
-      largeImageUrl: ["/images/portfolio-image-5-lg.jpg"]
+      title: "Train Scheduler",
+      subtitle: "With Google Firebase and Moment.js, users are able to see when is the next train as well as list any new trains for future users who visit the application.",
+      imageUrl: "/images/trainGif.gif",
+      largeImageUrl: ["/images/trainChoo.png"],
+      url: 'https://josephbadua.github.io/ChooChoo/'
     },
     {
       id: 6,
-      title: "Pendrive",
-      subtitle: "Free pendrive mockup design.",
-      imageUrl: "/images/portfolio-image-6.jpg",
-      largeImageUrl: ["/images/portfolio-image-6-lg.jpg"]
+      title: "Joseph's BurgerSQL",
+      subtitle: "Using MySQL and vanilla Javascript for ORM, the web application allows user to 'eat' a burger and add new burgers. Made to add new infromation the tables and transfer data from one to another.",
+      imageUrl: "/images/burgerGif.gif",
+      largeImageUrl: ["/images/burgerStuff.png"],
+      url: 'https://josephs-burgersql.herokuapp.com/'
     },
     {
       id: 7,
-      title: "Beautiful Pendrive",
-      subtitle: "Pendrive with great design & flexible.",
-      imageUrl: "/images/portfolio-image-7.jpg",
-      largeImageUrl: ["/images/portfolio-image-7-lg.jpg"],
-      url: 'https://twitter.com'
+      title: "Black Market SQL",
+      subtitle: "Using MySQL and several node packages, users can use the node enviornment to access a store's inventory, purchase items as well as add new products.",
+      imageUrl: "/images/bamazonGif.gif",
+      largeImageUrl: ["/images/bamazon.png"],
+      url: 'https://github.com/JosephBadua/MySQL-Store'
     },
     {
       id: 8,
-      title: "Sticker",
-      subtitle: "Clip sticker mockup design.",
-      imageUrl: "/images/portfolio-image-8.jpg",
-      largeImageUrl: ["/images/portfolio-image-8-lg.jpg"]
+      title: "Math-Game",
+      subtitle: "Simple and stylistic multiple choice math game for young kids. Made with vanilla javascript and ran through express/node enviornment.",
+      imageUrl: "/images/math.gif",
+      largeImageUrl: ["/images/mathGamePicture.png"],
+      url: 'https://math-game-joseph.herokuapp.com/'
     },
     {
       id: 9,
-      title: "Packet",
-      subtitle: "Beautiful packet & product design.",
-      imageUrl: "/images/portfolio-image-9.jpg",
-      largeImageUrl: ["/images/portfolio-image-9-lg.jpg"]
-    }
+      title: "Psychic Game",
+      subtitle: "Try to guess the random letter key chosen by the computer. 9 chances or you lose. Made using vanilla javascript.",
+      imageUrl: "/images/psychicGif.gif",
+      largeImageUrl: [
+        "/images/psychic-picture.png",
+      ],
+      url: 'https://josephbadua.github.io/Psychic-Game/'
+    },
   ],
   experience: {
     workingExperience: [
       {
         id: 1,
-        year: "2018 - Present",
-        position: "Frontend Web Developer",
-        company: "Abc Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2019 - Present",
+        position: "Web Developer",
+        company: "Los Angeles, California",
+        details: `
+        Create multiple page applications per the client’s request, most notably a newsletter for a local hospital department, which saw MoM increase of user engagement by 80%.
+        Made several contributions to open source projects from updating documentation to project issues.
+        `
       },
-      {
-        id: 2,
-        year: "2016 - 2018",
-        position: "Frontend Web Developer",
-        company: "CBA Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 3,
-        year: "2014 - 1016",
-        position: "UI/UX Designer",
-        company: "Example Company",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      }
     ],
     educationExperience: [
       {
         id: 1,
-        year: "2018 - 2019",
-        graduation: "Master of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
+        year: "2019 - 2020",
+        graduation: "Full Stack Development Certification",
+        university: "University of California, Riverside",
+        details: "A 24-week intensive program for Full Stack Development, focused on gaining technical programming skills in HTML5, CSS3, Javascript, JQuery, Bootstrap, Firebase, Node Js, MySQL, MongoDB, Express, Handelbars.js & ReactJS."
       },
-      {
-        id: 2,
-        year: "2016 - 2018",
-        graduation: "Bachelor of Science",
-        university: "Abc University",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      },
-      {
-        id: 3,
-        year: "2015 - 2016",
-        graduation: "Higher Schoold Graduation",
-        university: "Abc College",
-        details: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas, magni mollitia, aspernatur consequatur accusamus vero eum facere exercitationem velit suscipit ipsam placeat libero. Deleniti exercitationem nostrum quasi. Molestiae, vel porro."
-      }
     ]
   },
-  blogs: [
-    {
-      id: 1,
-      title: "React new version is coming!",
-      imageUrl: "/images/blog-image-1.jpg",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "03 December 2019"
-    },
-    {
-      id: 2,
-      title: "More about react hooks",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "04 December 2019"
-    },
-    {
-      id: 3,
-      title: "Next generation javascript learning source",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "05 December 2019"
-    },
-    {
-      id: 4,
-      title: "Free tutorial downloading link.",
-      imageUrl: "/images/blog-image-2.jpg",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "06 December 2019"
-    },
-    {
-      id: 5,
-      title: "Get 2500 free mockup for design.",
-      youtubeUrl: "TKnufs85hXk",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "08 December 2019"
-    },
-    {
-      id: 6,
-      title: "React vs Vue vs Angular, what is best?",
-      vimeoUrl: "23534361",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "10 December 2019"
-    },
-    {
-      id: 7,
-      title: "Web design typography & spacing.",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "03 December 2019"
-    },
-    {
-      id: 8,
-      title: "React new version is coming with a great features.",
-      content: "ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour. ReactJS is the most popular javascript framework now a days. Now it has comes with more and more new features. There is something called hooks, which has a great flavour.",
-      createTime: "03 December 2019"
-    }
-  ],
   contactInfo: {
     phoneNumbers: ['562-382-4416',],
     emailAddress: ['josephbadua1006@gmail.com'],
-    address: "Los Angeles California"
+    address: "Los Angeles, California"
   }
 }
 
